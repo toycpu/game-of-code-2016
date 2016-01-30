@@ -1,48 +1,131 @@
-# Shower Presentation Template
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Authentic Health Presentation</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Authentic Health Presentation</h1>
+		<p>By Khalid Ahmad Khattak</p>
+	</header>
+	<section class="slide" id="cover">
+		<h2>Authentic Health Presentation</h2>
+		<p>Brought to you by <a href="http://www.KhalidKhattak.com/AuthenticHealth.php">Khalid Ahmad Khattak</a></p>
+		<img src="pictures/cover.jpg" alt="" class="cover">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+		</style>
+	</section>
+	<section class="slide">
+		<h2>Authentic Health Features</h2>
+		<ol>
+			<li>Search for any health problem</li>
+			<li>Symptoms will be provided for the typed health problem</li>
+			<li>Treatments by English Medicine option</li>
+			<li>Treatments by Homeopathic option</li>
+			<li>Treatments by Religious text option</li>
+			<li>Treatments by Home remedy option</li>
+            <li>Each treatment will be fully referenced</li>
+		</ol>
+		<!-- <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>     -->
+	</section>
+	<section class="slide">
+		<h2>Simple Exerices for each part of the body</h2>
+        <ol>
+			<li>Exercises for upper body</li>
+			<li>Exercises for middle body</li>
+			<li>Exercises for Lower body</li>
+		</ol>
+    </section>
+	<section class="slide">
+		<h2>Exercise for upper body</h2>
+         <ol>
+			<li>Exercise 01 + precautions</li>
+			<li>Exercise 02 + precautions</li>
+			<li>Exercise 03 + precautions</li>
+			<li>Exercise 04 + precautions</li>
+			<li>Exercise 05 + precautions</li>
+			<li>Exercise 06 + precautions</li>
+		</ol>
+        </section>
+	<section class="slide">
+		<h2>Exercise for middle body</h2>
+         <ol>
+			<li>Exercise 01 + precautions</li>
+			<li>Exercise 02 + precautions</li>
+			<li>Exercise 03 + precautions</li>
+			<li>Exercise 04 + precautions</li>
+			<li>Exercise 05 + precautions</li>
+			<li>Exercise 06 + precautions</li>
+		</ol>
+        </section>
+	<section class="slide">
+		<h2>Exercise for lower body</h2>
+         <ol>
+			<li>Exercise 01 + precautions</li>
+			<li>Exercise 02 + precautions</li>
+			<li>Exercise 03 + precautions</li>
+			<li>Exercise 04 + precautions</li>
+			<li>Exercise 05 + precautions</li>
+			<li>Exercise 06 + precautions</li>
+		</ol>
+        </section>
 
-> Shower ['ʃəuə] noun. A person or thing that shows.
 
-1. Built on HTML, CSS and vanilla JavaScript
-2. Works in all modern browsers
-3. Themes are separated from engine
-4. Modular and extensible
-5. Fully keyboard accessible
-6. Printable to PDF
+	<section class="slide" id="picture">
+		<h2>Pictures</h2>
+		<img src="pictures/picture2.jpg" alt="" class="cover">
+		<style>
+			#picture h2 {
+				color:#FFF;
+				}
+		</style>
+	</section>
 
-[See it in action](http://shwr.me/). Includes [Ribbon](https://github.com/shower/ribbon/) and [Material](https://github.com/shower/material/) themes, and [core](https://github.com/shower/core/) with plugins.
+    	<section class="slide" id="picture">
+		<h2>Pictures</h2>
+		<img src="pictures/picture2.jpg" alt="" class="cover">
+		<style>
+			#picture h2 {
+				color:#FFF;
+				}
+		</style>
+	</section>
 
-Follow [@shower_me](https://twitter.com/shower_me) for support and updates, [file an issue](https://github.com/shower/shower/issues/new) if you have any.
 
-## Quick Start
-
-1. Download and unzip [template archive](http://shwr.me/shower.zip)
-2. Open `index.html` and start creating your presentation
-
-## Advanced
-
-If you’re familiar with [npm](https://www.npmjs.com/) you can install Shower’s core and themes manually: `npm install shower-core shower-ribbon`. The same packages available in [bower](http://bower.io/).
-
-For more details see [short video](https://www.youtube.com/watch?v=l2OelK_hIro) with advanced usage examples and built-in `publish` and `archive` commands explained.
-
-## Usage Examples
-
-- [Installable Web Apps](http://pepelsbey.net/pres/web-apps/)
-- [Clear and Sharp](http://pepelsbey.net/pres/clear-and-sharp/)
-- [CSS Management](http://pepelsbey.net/pres/knife-train/)
-- [Push it!](http://pepelsbey.net/pres/push-it/)
-- [Pre-fixes](http://pepelsbey.net/pres/pre-fixes/)
-- [Web In Curves](http://pepelsbey.net/pres/web-in-curves/)
-- [Sense Coding](http://pepelsbey.net/pres/sense-coding/)
-
-## Browser Support
-
-Latest stable versions of Chrome, Internet Explorer, Firefox, Opera and Safari are supported.
-
-## Contributing
-
-You’re always welcome to contribute. Fork project, make changes and send it as pull request. But it’s better to file an [issue](https://github.com/shower/shower/issues) with your idea first. Read [contributing rules](CONTRIBUTING.md) for more details.
-
-Main contributors in historical order: [pepelsbey](https://github.com/pepelsbey), [jahson](https://github.com/jahson), [miripiruni](https://github.com/miripiruni), [kizu](https://github.com/kizu), [artpolikarpov](https://github.com/artpolikarpov), [tonyganch](https://github.com/tonyganch), [zloylos](https://github.com/zloylos).
-
----
-Licensed under [MIT License](LICENSE.md).
+	<p class="badge">
+		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
+	</p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2016 Yours Truly, KhalidKhattak.com. -->
+	<!-- Photos by anonymous -->
+</body>
+</html>
