@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Authentic Health Presentation</title>
+	<title>Authentic Health</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,11 +9,11 @@
 </head>
 <body class="shower list">
 	<header class="caption">
-		<h1>Authentic Health Presentation</h1>
+		<h1>Authentic Health</h1>
 		<p>By Khalid Ahmad Khattak</p>
 	</header>
 	<section class="slide" id="cover">
-		<h2>Authentic Health Presentation</h2>
+		<h2>Authentic Health</h2>
 		<p>Brought to you by <a href="http://www.KhalidKhattak.com/AuthenticHealth.php">Khalid Ahmad Khattak</a></p>
 		<img src="pictures/cover.jpg" alt="" class="cover">
 		<!--
